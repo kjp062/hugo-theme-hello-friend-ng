@@ -1,0 +1,25 @@
+.resume-container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.resume-container p {
+    font-size: 12px;
+}
+
+.experience-item {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.experience-title {
+    width: 40%;
+}
+
+.experience-desc {
+    margin-right: 0;
+    padding-top: 8px;
+    width: 60%;
+}
