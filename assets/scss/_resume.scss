@@ -8,18 +8,26 @@
     font-size: 12px;
 }
 
-.experience-item {
+.resume-container li {
+    font-size: 14px;
+}
+
+.experience-item, .misc-item {
     display: flex;
     width: 100%;
     justify-content: flex-start;
 }
 
-.experience-title {
+.experience-title, .misc-title {
     width: 40%;
 }
 
-.experience-desc {
+.experience-desc, .misc-desc {
     margin-right: 0;
-    padding-top: 8px;
+    padding-top: 5px;
     width: 60%;
+}
+
+.misc-container p {
+    font-size: 12px;
 }
